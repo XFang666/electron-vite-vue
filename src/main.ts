@@ -3,6 +3,8 @@ import "./style.css"
 import App from './App.vue'
 import './samples/node-api'
 
+console.log(App);
+
 createApp(App)
   .mount('#app')
   .$nextTick(() => {
